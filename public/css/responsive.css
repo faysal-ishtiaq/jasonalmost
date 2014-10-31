@@ -1,0 +1,163 @@
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (max-width: 1700px) {
+
+}
+
+@media (max-width: 1200px) {
+	
+}	
+
+
+@media (max-width: 1024px) {
+	
+}
+
+
+@media (max-width: 990px) {
+	.top .logo, .top .nav-menu, .top .lang{
+		display: inline-block;
+	}
+
+	.top .col-md-9{
+		display: inline-block;
+		width: 480px;
+	}
+
+	.top .col-md-3{
+		display: inline-block;
+		width: 210px;
+	}
+
+	.footer .col-md-2{
+		width: 25%;
+		float: left;
+	}
+
+	.nav-menu-mob{
+		display: block !important;
+	}
+
+	.nav-menu{
+		display: none !important;
+	}
+
+	.nav-menu-mob ul{
+		position: absolute;
+	}
+	
+	.nav-menu-mob ul li{
+		display: block;
+		float: left;
+		width: 185px;
+		text-align: right;
+		clear: both;
+		background: url("../img/menu-bg.png");
+		padding: 5px;
+		padding-left: 15px;
+		border-bottom: 1px solid #ccc;
+		position: relative;
+		z-index: 500;
+	}
+	
+	.nav-menu-mob ul li:last-child{
+		border: none;
+	}
+	
+	.nav-menu-mob ul li a{
+		color:  #fff;
+	}
+
+	.nav-menu-mob ul li a:hover, .nav-menu-mob ul li a:focus{
+		text-decoration: none;
+	}
+	
+	.trigger{
+		color: #000;
+		font-size: 24px;
+		cursor: pointer;
+		border: 1px outset #ddd;
+		padding: 0 2px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+}
+
+
+@media (max-width: 768px) {
+	.container{
+		padding: 0 10px !important;
+	}
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 640px) {
+	.nav-menu ul li{
+		margin-left: 12px;
+	}
+
+	.top .col-md-9{
+		width: 400px;
+	}
+	.top .col-md-3{
+		width: 210px;
+	}
+
+	.footer .col-md-2{
+		width: 50%;
+		float: left;
+	}
+}
+
+@media (max-width: 480px) {
+	.footer{
+		text-align: center;
+	}
+	.footer .col-md-2{
+		width: 100%;
+		float: left;
+	}
+}
+
+@media (max-width: 360px) {
+	.lower-footer{
+		width: 290px;
+	}
+
+	.mysites .site-list .site-detail .site-description .at-bottom>*{
+		float: none !important;
+		text-align: center;
+	}
+
+	.mysites>div>div{
+		text-align: center;
+	}
+
+	.mysites>div>div>.pull-right, .mysites>div>div>.pull-left{
+		float: none !important;
+	}
+
+	.top *{
+		text-align: center;
+		clear: both;
+	}
+
+	.top .logo, .top .lang, .top .nav-menu-mob{
+		padding: 10px 0;
+	}
+
+	.top .col-md-3, .top .col-md-9{
+		width: auto !important;
+	}
+
+	.top .pull-left{
+		float: none !important;
+	}
+}

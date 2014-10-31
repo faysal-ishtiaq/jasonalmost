@@ -1,0 +1,471 @@
+/*********************************************************************************************
+*
+*	Template styles
+*
+**********************************************************************************************/
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+li{
+	list-style: none;
+}
+
+.pn{
+	padding: 0;
+}
+
+.mn{
+	margin: 0;
+}
+
+.button{
+	padding: 4px 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.button:hover{
+	border-color: #653298;
+	color: #653298;
+}
+
+.section-heading, .section-description{
+	text-align: center;
+	line-height: 2em;
+}
+
+.section-heading{
+	font-size: 30px;
+	margin-top: 25px;
+}
+
+.section-description{
+	width: 70%;
+	margin: 0 auto 25px;
+}
+
+#wrapper{
+	overflow: hidden;
+}
+
+/********************************************************************************************
+*
+*	Top Section Styles
+*
+*********************************************************************************************/
+
+.top{
+	padding: 10px 0 15px;
+	-webkit-box-shadow: 1px 3px 15px 0px rgba(50, 50, 50, 0.51);
+	   -moz-box-shadow: 1px 3px 15px 0px rgba(50, 50, 50, 0.51);
+            box-shadow: 1px 3px 15px 0px rgba(50, 50, 50, 0.51);
+}
+
+.top .button{
+	text-decoration: none;
+}
+
+.top .logo{
+	padding: 0 0 10px;
+}
+
+.top .button:hover, .top .button:focus{
+	text-decoration: none;
+}
+
+.top .col-md-9>div, .top .col-md-3>div{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.nav-menu ul{
+	list-style: none;
+}
+
+.nav-menu ul li{
+	display: inline-block;
+	cursor: pointer;
+	margin-left: 20px;
+}
+
+
+.nav-menu ul li a{
+	color: #000;
+}
+
+.nav-menu ul li a:hover, .nav-menu ul li a:focus{
+	text-decoration: none;
+	color: #000;
+}
+
+.logo h1{
+	font-size: 18px;
+	margin: 0;
+}
+
+.nav-menu-mob{
+	display: none !important;
+}
+
+.nav-menu-mob ul{
+	display: none;
+}
+
+/********************************************************************************************
+*
+*	Banner Section Styles
+*
+*********************************************************************************************/
+
+.banner img{
+	width: 100%;
+}
+
+
+/********************************************************************************************
+*
+*	Service Section Styles
+*
+*********************************************************************************************/
+
+.services{
+	background: #e9f7f5;
+	padding: 10px 0 40px;
+}
+
+.service-list li{
+	padding: 15px;
+}
+
+.service{
+	background: #fff;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.service .fa{
+	font-size: 60px;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.service-heading{
+	font-size: 20px;
+	text-align: center;
+}
+
+.service-description{
+	font-size: 14px;
+	text-align: center;
+}
+
+/********************************************************************************************
+*
+*	Promo Box Section Styles
+*
+*********************************************************************************************/
+.promo-box{
+	background: #5cacf3;
+	color: #fff;
+	padding: 10px 0 40px;
+}
+
+.offer-link{
+	text-align: center;
+}
+
+.offer-link{
+	font-size: 18px;
+}
+
+
+/********************************************************************************************
+*
+*	Featured Site Section Styles
+*
+*********************************************************************************************/
+
+.featured-site{
+	text-align: center;
+	padding: 10px 0 40px;
+}
+
+.featured-site img{
+	width: 320px;
+	height: 320px;
+}
+
+/********************************************************************************************
+*
+*	Footer Section Styles
+*
+*********************************************************************************************/
+.footer{
+	background: #6b7773;
+	color: #fff;
+	padding: 10px 0 40px;
+}
+
+.footer-item-list li a{
+	color: #fff;
+	text-decoration: none;	
+}
+
+.footer-heading{
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.social-net-list li{
+	display: inline-block;
+	margin: 10px;
+}
+
+
+.social-net-list li a{
+	color: #b4c4bf;
+	text-decoration: none;
+	font-size: 36px;
+}
+.site-address{
+	font-size: 24px;
+	text-transform: lowercase;
+}
+
+.lower-footer{
+	text-align: center;
+	padding: 15px 0;
+	margin: 40px auto 0;
+	float: none;
+	font-size: 12px;
+	width: 500px;
+	clear: both;
+}
+
+/****************************************************
+*	Account-settings Page Style
+****************************************************/
+
+
+.account-settings{
+	background: url('../img/acc_sett_bg.png');
+	padding: 30px 0;
+}
+
+.account-settings>div>h1{
+	margin-right: 15px;
+}
+
+
+.mng-soc-login .panel-body .row{
+	margin: 0 0 10px;
+}
+
+.mng-soc-login .fa{
+	width: 56px;
+	height: 56px;
+	text-align: center;
+	background: #784578;
+	color: #fff;
+	font-size: 36px;
+	border-radius: 50%;
+	padding: 9px 7px;
+	position: relative;
+	top: 7px;
+	margin-left: 10px;
+}
+
+.mng-soc-login .btn{
+	position: relative;
+	top: 10px;
+}
+
+.mng-soc-login .fa-google{
+	background: #a81a20;
+}
+
+.mng-soc-login .fa-facebook{
+	background: #30487b;
+}
+
+/********************
+*	App Market
+**********************/
+
+.appmarket{
+	padding: 30px 0 50px;
+}
+
+
+.appmarket .product{
+	-webkit-box-shadow: 1px 1px 10px -2px rgba(150, 150, 150, 1);
+	   -moz-box-shadow: 1px 1px 10px -2px rgba(150, 150, 150, 1);
+		    box-shadow: 1px 1px 10px -2px rgba(150, 150, 150, 1);
+	
+
+	margin: 15px 0;
+    padding: 10px;
+}
+
+.appmarket .product .product-image img{
+	width: 100%;
+}
+
+.appmarket .product .product-image{
+	overflow: hidden;
+	height: 120px;
+}
+
+.appmarket .product .product-detail{
+	padding: 10px 0;
+}
+
+.sidebar-menu li{
+	padding: 5px 0;
+}
+
+
+.sidebar-menu li a{
+	color: #000;
+}
+
+
+.sidebar-menu li a:hover, .sidebar-menu li a:focus{
+	text-decoration: none;
+}
+
+/***********************************************
+*	My sites (with no site) Section Style
+************************************************/
+
+.mysites .create-site, .mysites>div>div>h1:first-child{
+	margin: 50px 0 20px;
+}
+
+.no-site{
+	min-height: 400px;
+	background: url('../img/robot.png') no-repeat;
+}
+
+/****************************************************
+*	My Sites ( with site ) Section Style
+****************************************************/
+
+.site-list-container .site-image img{
+	width: 100%;
+}
+
+.site-list-container .site-image{
+	border-radius: 5px;
+	border: 1px solid #aaa;
+}
+
+.site-detail>div>div{
+	display: table-row;
+}
+
+
+.mysites .site-list li{
+	padding: 20px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.mysites .site-list li:last-child{
+	border: none;
+}
+
+/**********************************************************
+*	Help - upper section styles
+***********************************************************/
+
+.help-upper{
+	background: #77ce5e;
+	color: #fff;
+}
+
+.help-upper .col-md-8:first-child{
+	padding-bottom: 30px;
+	padding-top: 10px;
+}
+
+.help-upper .col-md-4:nth-child(2){
+	padding: 50px 15px;
+}
+
+/********************************************
+*	Help - lower Section
+*********************************************/
+
+.help-lower{
+	padding: 40px 0;
+}
+
+.faq-tut-cat-list{
+	padding: 10px;
+	margin-top: 30px;
+}
+
+.faq-tut-cat-list li{
+	padding: 10px 0;
+	border-radius: 5px;
+}
+
+.faq-tut-cat-list li:hover{
+	border: 1px solid #eee;
+	background: #d4effb;
+}
+
+.faq-tut-cat-list li:hover a{
+	font-weight: 700;
+	color: #777;
+}
+
+.faq-tut-cat-list li a{
+	color: #444;
+	padding-right: 10px;
+}
+
+.faq-tut-cat-list li a:focus, .faq-tut-cat-list li a:hover{
+	text-decoration: none;
+}
+
+.faq-tut-link li{
+	display: inline-block;
+	padding: 5px 10px;
+}
+
+.faq-set li a, .faq-tut-link li a{
+	color: #343434;
+}
+
+.faq-set li a:hover, .faq-set li a:focus, .faq-tut-link li a:hover, .faq-tut-link li:focus{
+	text-decoration: none;
+}
+
+.faq-tut-set hr{
+	margin: 0;
+}
+
+.faq-set{
+	padding: 30px 20px;
+}
+
+.faq-tut-link{
+	padding-top: 20px;
+}
+
+.faq-set li{
+	padding: 5px 10px;
+}
+
+.faq-set li:hover a span{
+	font-size: 18px;
+}
+
+.faq-set li a span{
+	color: #468074;
+}
